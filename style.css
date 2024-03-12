@@ -1,0 +1,63 @@
+/* 1.Create a new file in the same directory as your index.html file and name it style.css.
+   2.Copy all the CSS code from the <style> tag in your index.html file.
+   3.Open the style.css file and paste the CSS code into it.
+   4.Inside the head tag section in index.html file, add a <link> tag to link the style.css file.  */
+
+/* setting style for body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5bc2c5ee;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    }
+/* setting style for form */
+    form {
+    background-color: #fcfcfcf1;
+    padding: 20px;
+    border-radius: 5px;
+    width: 350px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    }
+/* setting style for heading */
+    h2 {
+    text-align: center;
+    position: top;
+    margin: top;
+    }
+/* settting style for labels */
+    label {
+    font-weight: bold;
+    color: rgb(3, 3, 3);
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    border-radius: 10px;
+    border: 1px solid #7e7474;
+    background-color: #e7e6e6c0;
+    box-sizing: border-box;
+    }
+/* setting style for submit button */
+    input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    }
+
+    input[type="submit"]:hover {
+    background-color: #45a049;
+    } 
